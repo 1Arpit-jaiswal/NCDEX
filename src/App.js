@@ -1,35 +1,47 @@
 import "./App.css";
-import Testimonial from "./components/Testimonial";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { BrowserRouter as Router } from "react-router-dom";
+
+// import Navbar from "./components/Navbar/Navbar";
+// import LineChart from "./components/Linechart/linechart";
+// import CardSlider from "./components/CardSlider/CardSlider";
+// import GalleryReact from './components/Products/GalleryReact'; 
+// import Skiderone from "./components/Training & Education/Skiderone";
+// import HNFD from "./components/HNFD/HNFD";
+// import Gannounce from "./components/Gannounce/Gannounce";
+// import Member from "./components/NCDEX Member/Member";
+// import Flex from "./components/NCDEX Impact/Flex";
+// import Footer from "./components/Footer/Footer";
 
 
-// import ApexCharts from 'apexcharts';
-// import LineChart from './components/LineChart';
-// import LineChartone from './components/LineChartone';
-// import { Line } from 'react-chartjs-2';
-// import GalleryReact from './components/GalleryReact';
 
 
-
-
-// import { BrowserRouter as Router } from "react-router-dom";
-// import Register1 from "./components/Register1";
-
-
-// import HNFD from "./components/HNFD";
 
 
 function App() {
   return (
-    <>
-   <Testimonial/>
-     {/* <LineChartone/> */}
-      {/* <GalleryReact/> */}
-      {/* <HNFD/> */}
-       {/* <LineChart/> */}
-       {/* <Loginn/> */}
-       {/* <Register1/> */}
-    </>
+    <Router>
+{/*       
+      <Navbar/>
+      
+      <LineChart/>
+      <CardSlider/>
+      <GalleryReact/>
+      <Skiderone/>
+      <HNFD/>
+      <Gannounce/>
+      <Member/>
+      <Flex/>
+      <Footer/> */}
+      
+    
+      
+       
+    
+    </Router>
   );
 }
 
 export default App;
+

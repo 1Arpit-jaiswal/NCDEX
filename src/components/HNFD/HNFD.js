@@ -26,6 +26,7 @@ function Testi() {
                 Explore the feature-rich charting tool with live/delayed quotes,
                 reports, circulars and best of the class analytical tools.
               </span>
+              
             </p>
           </div>
         </section>

@@ -1,0 +1,46 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+strong{
+    color: yellow;
+}
+p{
+    padding: 61px;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.wrapper{
+    padding: 5px;
+    width: 2200px;
+    width: 100%;
+    margin: 20px auto;
+}
+header{
+    padding: 0 15px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.cols{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+
+}
+.col {
+    color: white;
+    margin :50px;
+    flex: 1;
+    border: 1px solid black;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(61, 57, 57);
+    transition: 0.3s;
+
+}
+col:first-child{
+    margin-left: -10px;
+}
