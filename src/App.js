@@ -22,10 +22,10 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <Router>
-       {/* <Navbar/> */}
-{/*       
+       
+
      
-      
+       {/* <Navbar/> 
       <LineChart/>
       <CardSlider/>
       <GalleryReact/>
@@ -34,7 +34,7 @@ function App() {
       <Gannounce/>
       <Member/>
       <Flex/>
-      <Footer/> */}
+      <Footer/>  */}
       
     
       

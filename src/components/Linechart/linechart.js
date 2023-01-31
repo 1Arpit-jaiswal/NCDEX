@@ -78,8 +78,8 @@ const LineChart = () => {
       <span> Line Chart</span>
       <Line
         data={data}
-        width={800}
-        height={300}
+        width={500}
+        height={200}
         options={options}
         plugins={[
           {
